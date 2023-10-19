@@ -1,29 +1,26 @@
+import MenuItem from "./MenuItem"
+
 const Header = () => {
     return (
         <header>
-            <div className="header">
-                <div className="left">
-                    <div className="name">
-                        <h1>Ayeza Bashir</h1>
+            <div className="container">
+                <div className="header">
+                    <div className="left">
+                        <div className="name">
+                            <h1>Ayeza</h1>
+                        </div>
                     </div>
-                </div>
-                <div className="right">
-                    <div className="desktop">
-                        <h3>Projects</h3>
-                        <h3>About</h3>
-                        <h3>
-                            <a href="https://github.com/ayezabashir">
-                                github
-                            </a>
-                        </h3>
-                        <h3>
-                            <a href="">
-                                Resume
-                            </a>
-                        </h3>
-                        <button>
-                            dark/light mode
-                        </button>
+                    <div className="right">
+                        <div className="desktop">
+                            <MenuItem />
+                        </div>
+                        <div className="mobile">
+                            <button>Menu button</button>
+                            <div>
+                                <button>Close button</button>
+                                <MenuItem />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
