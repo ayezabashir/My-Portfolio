@@ -22,11 +22,9 @@ const MenuItem = () => {
                     <h3>Contact</h3>
                 </li>
                 <li className='menu-list-items' title='My Resume'>
-                    <h3>
-                        <a href="">
-                            <HiDocumentText className='icon' />
-                        </a>
-                    </h3>
+                    <a href="">
+                        <HiDocumentText className='icon' />
+                    </a>
                 </li>
                 <li className='menu-list-items'>
                     <button onClick={changeMode}>
