@@ -44,7 +44,14 @@ button {
   margin: 0 auto;
 }
 
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: $secondary-color;
+}
+
 header {
+  box-shadow: 0px 0px 4px 1px $secondary-color;
   .container {
     .header {
       display: flex;
@@ -65,7 +72,6 @@ header {
             display: flex;
             align-items: center;
             .menu-list-items {
-              cursor: pointer;
               margin: 0 15px;
               h3 {
                 font-size: 1.4rem;
@@ -76,6 +82,34 @@ header {
         }
         .mobile {
           display: none;
+        }
+      }
+    }
+  }
+}
+
+.menu-items {
+  .menu-list-items {
+    cursor: pointer;
+    button {
+      width: 50px;
+      border: 2px solid $secondary-color;
+      border-radius: 50px;
+      .mode {
+        display: flex;
+      }
+      .mode-two {
+        display: flex;
+        margin-left: 52%;
+      }
+      &:active {
+        .dark {
+          transition: transform 0.3s;
+          transform: translateX(100%);
+        }
+        .light {
+          transition: transform 0.3s;
+          transform: translateX(-100%);
         }
       }
     }
@@ -122,6 +156,7 @@ header {
                   display: flex;
                   flex-direction: column;
                   align-items: center;
+                  justify-content: center;
                   .menu-close {
                     position: absolute;
                     top: 2rem;
@@ -130,6 +165,7 @@ header {
                   }
                   .menu-items {
                     .menu-list-items {
+                      font-size: 1.4rem;
                       text-align: center;
                       margin: 15px 0;
                     }

@@ -1,8 +1,13 @@
 import { BsFillSunFill } from 'react-icons/bs'
 import { MdDarkMode } from 'react-icons/md'
-import { GrDocumentText } from 'react-icons/gr'
+import { HiDocumentText } from 'react-icons/hi'
+import { useState } from 'react'
 
 const MenuItem = () => {
+    const [mode, setMode] = useState(true);
+    const changeMode = () => {
+        setMode(!mode);
+    }
 
     return (
         <>
@@ -19,14 +24,15 @@ const MenuItem = () => {
                 <li className='menu-list-items' title='My Resume'>
                     <h3>
                         <a href="">
-                            <GrDocumentText className='icon' />
+                            <HiDocumentText className='icon' />
                         </a>
                     </h3>
                 </li>
                 <li className='menu-list-items'>
-                    <button>
-                        <BsFillSunFill title='switch to lightmode' classname='lightmode icon' />
-                        <MdDarkMode title='switch to darkmode' classname='darkmode icon' />
+                    <button onClick={changeMode}>
+                        {
+                            mode ? <MdDarkMode title='switch to darkmode' className='mode dark icon' /> : <BsFillSunFill title='switch to lightmode' className='mode-two light icon' />
+                        }
                     </button>
                 </li>
             </ul>

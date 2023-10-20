@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="header">
                     <div className="left">
                         <div className="name">
-                            <h1>Ayeza</h1>
+                            <h1>Ayeza Bashir</h1>
                         </div>
                     </div>
                     <div className="right">
