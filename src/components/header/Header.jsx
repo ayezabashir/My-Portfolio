@@ -1,5 +1,6 @@
 import MenuItem from "./MenuItem"
-
+import { FiMenu } from 'react-icons/fi'
+import { AiOutlineClose } from 'react-icons/ai'
 const Header = () => {
     return (
         <header>
@@ -15,9 +16,13 @@ const Header = () => {
                             <MenuItem />
                         </div>
                         <div className="mobile">
-                            <button>Menu button</button>
+                            <button>
+                                <FiMenu className='icon' />
+                            </button>
                             <div>
-                                <button>Close button</button>
+                                <button>
+                                    <AiOutlineClose className='icon' />
+                                </button>
                                 <MenuItem />
                             </div>
                         </div>

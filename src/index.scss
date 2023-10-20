@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,700&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
+
+$primary-color: #f6d4b1;
+$secondary-color: #525252;
 
 *,
 ::after,
@@ -12,7 +15,12 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: $primary-color;
+  color: $secondary-color;
 }
 
 .container {
@@ -20,6 +28,14 @@ html {
   padding-right: 1rem;
   max-width: 117rem;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
 }
 
 header {
@@ -33,6 +49,43 @@ header {
         .name {
           h1 {
             font-weight: 900;
+            font-size: 32px;
+          }
+        }
+      }
+      .right {
+        .desktop {
+          .menu-items {
+            display: flex;
+            align-items: center;
+            .menu-list-items {
+              cursor: pointer;
+              margin: 0 15px;
+              h3 {
+                font-size: 1.4rem;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+        .mobile {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    .container {
+      .header {
+        .right {
+          .desktop {
+            display: none;
+          }
+          .mobile {
+            display: block;
           }
         }
       }
