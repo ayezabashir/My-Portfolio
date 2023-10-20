@@ -1,7 +1,18 @@
 import MenuItem from "./MenuItem"
 import { FiMenu } from 'react-icons/fi'
 import { AiOutlineClose } from 'react-icons/ai'
+import { useState } from "react"
+
 const Header = () => {
+
+    const [menu, setMenu] = useState(false);
+    const openMenu = () => {
+        setMenu(true);
+    }
+    const closeMenu = () => {
+        setMenu(false);
+    }
+
     return (
         <header>
             <div className="container">
@@ -16,14 +27,18 @@ const Header = () => {
                             <MenuItem />
                         </div>
                         <div className="mobile">
-                            <button>
-                                <FiMenu className='icon' />
-                            </button>
-                            <div>
-                                <button>
-                                    <AiOutlineClose className='icon' />
+                            <div className="mobile-view">
+                                <button className="menu-btn" onClick={openMenu}>
+                                    <FiMenu className='icon' />
                                 </button>
-                                <MenuItem />
+                                <div className={`menu-open ${menu ? 'active' : ''}`}>
+                                    <div className="full-screen-menu">
+                                        <button className="menu-close">
+                                            <AiOutlineClose className="icon" onClick={closeMenu} />
+                                        </button>
+                                        <MenuItem />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
