@@ -6,7 +6,7 @@ const Footer = () => {
             <footer>
                 <div className="container">
                     <div className="footer-content">
-                        <h2>Contact Me</h2>
+                        <h2>Connect With Me</h2>
                         <ul className="footer-list">
                             <li className='footer-list-item'>
                                 <a href="https://github.com/ayezabashir">
