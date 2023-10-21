@@ -129,6 +129,40 @@ header {
   }
 }
 
+footer {
+  .container {
+    .footer-content {
+      margin: 4rem auto;
+      text-align: center;
+      h2 {
+        font-size: 2rem;
+      }
+      .footer-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .footer-list-item {
+          cursor: pointer;
+          border: 2px solid $secondary-color;
+          padding: 8px 8px 6px 8px;
+          border-radius: 50%;
+          margin: 2rem 1rem 0 1rem;
+          &:hover {
+            transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+            background-color: $secondary-color;
+            .icon {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+      .copyrights {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   header {
     .container {
