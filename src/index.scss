@@ -31,10 +31,27 @@ ul li {
   list-style: none;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 button {
   outline: none;
   border: none;
   background: transparent;
+}
+
+label,
+input,
+textarea {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
 }
 
 .container {
@@ -129,14 +146,76 @@ header {
   }
 }
 
+.contact-form {
+  margin: 4rem 0;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contact-content {
+      width: 80vw;
+      text-align: center;
+      .form {
+        margin-top: 2rem;
+        display: flex;
+        border-radius: 10px;
+        padding: 2rem;
+        justify-content: space-between;
+        box-shadow: 0px 0px 4px 1px $secondary-color;
+        .left,
+        .right {
+          width: 100%;
+          padding: 10px;
+        }
+        .form-element {
+          margin: 2rem 0;
+        }
+        label {
+          font-size: 1.6rem;
+          text-align: left;
+          margin: 5px 0;
+        }
+        input,
+        textarea {
+          border-radius: 5px;
+          border: 2px solid $secondary-color;
+          color: $secondary-color;
+          background: transparent;
+          padding: 11px 5px;
+          font-size: 1.4rem;
+          font-family: inherit;
+          &:focus {
+            border: 1px solid $secondary-color;
+          }
+        }
+        .right {
+          .form-submit {
+            border: 2px solid $secondary-color;
+            color: $secondary-color;
+            font-size: 1.8rem;
+            font-weight: 700;
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            &:hover {
+              transition: all 0.3s ease-in-out;
+              background: $secondary-color;
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 footer {
+  border-top: 2px solid $secondary-color;
   .container {
     .footer-content {
       margin: 4rem auto;
       text-align: center;
-      h2 {
-        font-size: 2rem;
-      }
       .footer-list {
         display: flex;
         justify-content: center;
