@@ -242,6 +242,29 @@ footer {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .contact-form {
+    margin: 4rem 0;
+    .container {
+      .contact-content {
+        width: 100%;
+        .form {
+          flex-direction: column;
+          .left {
+            padding-bottom: 0;
+          }
+          .right {
+            padding-top: 0;
+            .form-element {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   header {
     .container {
