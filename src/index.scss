@@ -68,6 +68,10 @@ textarea {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: $primary-color;
   box-shadow: 0px 0px 4px 1px $secondary-color;
   .container {
     .header {
@@ -103,6 +107,10 @@ header {
       }
     }
   }
+}
+
+.blank {
+  margin-top: 10rem;
 }
 
 .menu-items {
