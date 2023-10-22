@@ -19,7 +19,7 @@ const MenuItem = () => {
                     <h3>About</h3>
                 </li>
                 <li className='menu-list-items'>
-                    <h3>Contact</h3>
+                    <a href="#contact"><h3>Contact</h3></a>
                 </li>
                 <li className='menu-list-items' title='My Resume'>
                     <a href="">

@@ -24,6 +24,7 @@ body {
 }
 
 a {
+  color: $secondary-color;
   text-decoration: none;
 }
 
@@ -109,10 +110,6 @@ header {
   }
 }
 
-.blank {
-  margin-top: 10rem;
-}
-
 .menu-items {
   .menu-list-items {
     cursor: pointer;
@@ -155,7 +152,7 @@ header {
 }
 
 .contact-form {
-  margin: 4rem 0;
+  margin: 10rem 0 4rem 0;
   .container {
     display: flex;
     justify-content: center;

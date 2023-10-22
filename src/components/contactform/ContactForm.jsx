@@ -3,7 +3,7 @@
 const ContactForm = () => {
     return (
         <>
-            <div className="contact-form">
+            <div className="contact-form" id="contact" >
                 <div className="container">
                     <div className="contact-content">
                         <h2>Contact Me</h2>
