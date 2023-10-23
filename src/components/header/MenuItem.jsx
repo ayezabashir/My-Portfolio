@@ -16,7 +16,9 @@ const MenuItem = () => {
                     <h3>Projects</h3>
                 </li>
                 <li className='menu-list-items'>
-                    <h3>About</h3>
+                    <a href="#about">
+                        <h3>About</h3>
+                    </a>
                 </li>
                 <li className='menu-list-items'>
                     <a href="#contact"><h3>Contact</h3></a>

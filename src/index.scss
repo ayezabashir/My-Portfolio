@@ -68,6 +68,10 @@ textarea {
   color: $secondary-color;
 }
 
+.blank {
+  margin-top: 10rem;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -152,7 +156,7 @@ header {
 }
 
 .contact-form {
-  margin: 10rem 0 4rem 0;
+  margin: 4rem 0;
   .container {
     display: flex;
     justify-content: center;
@@ -249,7 +253,6 @@ footer {
 
 @media screen and (max-width: 768px) {
   .contact-form {
-    margin: 4rem 0;
     .container {
       .contact-content {
         width: 100%;
