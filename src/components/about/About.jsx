@@ -15,10 +15,13 @@ const About = () => {
                             <p>I still have lots to learn but I am consistent and I am willing to take challenges.</p>
                         </div>
                         <div className="current-stack">
-                            <h3>My Current Stack of languages/Technologies</h3>
+                            <h3>My Current Tech Stack</h3>
                             <p>HTML, CSS, SASS, tailwind, bootstrap, MUI, JavaScript, ReactJS, jQuery, adobe photoshop, adobe illustrator, figma ,wordpress, git</p>
                         </div>
-
+                        <div className="future-stack">
+                            <h3>Tech skills I plan to learn in futue</h3>
+                            <p>NextJs, Typescript, GSAP, MongoDB, NodeJS</p>
+                        </div>
                     </div>
                 </div>
             </div>
