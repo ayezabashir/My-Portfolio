@@ -1,3 +1,10 @@
+import { RiHtml5Line, RiBootstrapLine } from 'react-icons/ri'
+import { TbBrandCss3, TbBrandNextjs, TbBrandNodejs, TbBrandTypescript } from 'react-icons/tb'
+import { DiSass, DiPhotoshop, DiIllustrator } from 'react-icons/di'
+import { FiFigma } from 'react-icons/fi'
+import mui from '/mui.svg'
+import { FaWordpress } from 'react-icons/fa'
+import { BiLogoTailwindCss, BiLogoMongodb, BiLogoGit, BiLogoJavascript, BiLogoJquery, BiLogoReact } from 'react-icons/bi'
 const About = () => {
     return (
         <>
@@ -15,12 +22,32 @@ const About = () => {
                             <p>I still have lots to learn but I am consistent and I am willing to take challenges.</p>
                         </div>
                         <div className="current-stack">
-                            <h3>My Current Tech Stack</h3>
-                            <p>HTML, CSS, SASS, tailwind, bootstrap, MUI, JavaScript, ReactJS, jQuery, adobe photoshop, adobe illustrator, figma ,wordpress, git</p>
+                            <h3>My Current Stack of languages/technologies</h3>
+                            <p>
+                                <RiHtml5Line />
+                                <TbBrandCss3 />
+                                <DiSass />
+                                <BiLogoTailwindCss />
+                                <RiBootstrapLine />
+                                <BiLogoJavascript />
+                                <BiLogoReact />
+                                <BiLogoJquery />
+                                <BiLogoGit />
+                                <img width={10} src={mui} alt="" />
+                                <FiFigma />
+                                <DiPhotoshop />
+                                <DiIllustrator />
+                                <FaWordpress />
+                            </p>
                         </div>
                         <div className="future-stack">
-                            <h3>Tech skills I plan to learn in futue</h3>
-                            <p>NextJs, Typescript, GSAP, MongoDB, NodeJS</p>
+                            <h3>Stack of languages/technologies I plan to learn</h3>
+                            <p>
+                                <TbBrandNextjs />
+                                <TbBrandTypescript />
+                                <BiLogoMongodb />
+                                <TbBrandNodejs />
+                            </p>
                         </div>
                     </div>
                 </div>
