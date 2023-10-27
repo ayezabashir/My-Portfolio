@@ -1,5 +1,3 @@
-// import { FaHandshakeSimple } from 'react-icons/fa'
-
 const ContactForm = () => {
     return (
         <>
