@@ -279,6 +279,32 @@ header {
   }
 }
 
+.projects {
+  margin: 6rem 0;
+  .container {
+    .projects-content {
+      text-align: center;
+      .projects-container {
+        margin: 2rem 0;
+        .project-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          .project-card {
+            width: 100%;
+            .project-card-header {
+              .img {
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 footer {
   border-top: 2px solid $secondary-color;
   .container {

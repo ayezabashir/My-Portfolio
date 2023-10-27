@@ -13,11 +13,14 @@ const MenuItem = () => {
         <>
             <ul className="menu-items">
                 <li className='menu-list-items'>
-                    <h3>Projects</h3>
-                </li>
-                <li className='menu-list-items'>
                     <a href="#about">
                         <h3>About</h3>
+                    </a>
+
+                </li>
+                <li className='menu-list-items'>
+                    <a href="#project">
+                        <h3>Projects</h3>
                     </a>
                 </li>
                 <li className='menu-list-items'>
