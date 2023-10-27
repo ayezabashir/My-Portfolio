@@ -14,12 +14,12 @@ const About = () => {
                         <h2>About Me</h2>
                         <div className="about-me">
                             <p className='name'>Hi my name is Ayeza. I am 22 years old. I have Bachelors degree in <span className='highlight'>Software Engineering</span> and currently I am doing MPhill in Software Engineering.</p> <br />
-                            <p>I started learning <span className="highlight">Web Development</span> after my degree in 2022. It was easy for me to grasp that as I already learned C++ and Java basics.
-                                I started from the very start HTML and CSS and worked my way up to JavaScript and then making simple projects but it still was not enough, I moved to advanced JS courses and started working on building my logic skills.
+                            <p>I started learning <span className="highlight">Web Development</span> after my degree in 2022. It was easy for me to grasp that as I already had a programming background.
+                                I started from the very start HTML and CSS and worked my way up to JavaScript and practicing building simple projects. I moved to advanced JS courses and started working on building my logic skills.
                                 I did Leetcode and Codewars challenges now and then and it really helped me open my mind. I started uploading my projects on github and it really boosted my confidence after watching the green dots displaying how consistent
                                 I have been in coding and I have not stopped since then.
                             </p> <br />
-                            <p>I still have lots to learn but I am consistent and I am willing to take challenges.</p>
+                            <p>I still have lots to learn but I am consistent and willing to take challenges.</p>
                         </div>
                         <div className="current-stack">
                             <h3>My CurrentStack of <span className="highlight">languages/technologies</span></h3>
@@ -43,10 +43,10 @@ const About = () => {
                         <div className="future-stack">
                             <h3>Stack of <span className="highlight">languages/technologies</span> I plan to learn</h3>
                             <p>
-                                <TbBrandNextjs className='icon stack' />
-                                <TbBrandTypescript className='icon stack' />
-                                <BiLogoMongodb className='icon stack' />
-                                <TbBrandNodejs className='icon stack' />
+                                <TbBrandNextjs title='NextJS' className='icon stack' />
+                                <TbBrandTypescript title='Typescript' className='icon stack' />
+                                <BiLogoMongodb title='MongoDB' className='icon stack' />
+                                <TbBrandNodejs title='NodeJS' className='icon stack' />
                             </p>
                         </div>
                     </div>

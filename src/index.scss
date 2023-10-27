@@ -267,6 +267,12 @@ header {
             margin: 0 1rem;
             font-size: 40px;
           }
+          .stack {
+            &:hover {
+              transition: transform 0.5s;
+              transform: rotate(360deg);
+            }
+          }
         }
       }
     }
