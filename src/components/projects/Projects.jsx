@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai'
 import abelton from '/images/ableton-clone.webp'
 import admindash from '/images/admin-dashboard.webp'
 import blog from '/images/blog-website.webp'
-import flightbook from '/images/flightbook-landingpage.webp'
+import flightbook from '/images/flightbook-landingpage.jpg'
 import booknest from '/images/book-nest-search.webp'
 import weather from '/images/weather-app.webp'
 import crypto from '/images/crytpocurrency-search.webp'
@@ -34,8 +34,8 @@ const allProjects = [
         project_name: 'CryptoCurrency Search',
         project_desc: 'Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.',
         project_languages: ['reactjs', 'react-bootstrap', 'axios', 'api'],
-        project_live_link: 'https://book-nest-search-books.vercel.app/',
-        project_github_link: 'https://github.com/ayezabashir/BookNest-SearchBooks'
+        project_live_link: 'https://crytpocurrency-search.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/Crytpocurrency-Search'
     },
     {
         id: 4,
@@ -109,12 +109,12 @@ const Projects = () => {
                                                     </div>
                                                     <div className="links">
                                                         <div className="website">
-                                                            <a href={item.project_live_link}>
+                                                            <a href={item.project_live_link} rel="noreferrer" target='_blank'>
                                                                 <BsLink45Deg className='icon' />
                                                             </a>
                                                         </div>
                                                         <div className="github">
-                                                            <a href={item.project_github_link}>
+                                                            <a href={item.project_github_link} rel="noreferrer" target='_blank'>
                                                                 <AiFillGithub className='icon' />
                                                             </a>
                                                         </div>
