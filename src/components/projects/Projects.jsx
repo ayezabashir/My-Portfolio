@@ -103,7 +103,7 @@ const Projects = () => {
                                                     <div className="languages">
                                                         {
                                                             item.project_languages.map((lang, index) => (
-                                                                <span className='lang' key={index}>{lang}</span>
+                                                                <span className='lang highlight' key={index}>{lang}</span>
                                                             ))
                                                         }
                                                     </div>
