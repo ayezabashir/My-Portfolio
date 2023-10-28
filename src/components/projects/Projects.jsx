@@ -1,7 +1,7 @@
 import { BsLink45Deg } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
-
 import abelton from '/images/ableton-clone.webp'
+import admindash from '/images/admin-dashboard.webp'
 import booknest from '/images/book-nest-search.webp'
 import crypto from '/images/crytpocurrency-search.webp'
 
@@ -32,7 +32,16 @@ const allProjects = [
         project_languages: ['reactjs', 'react-bootstrap', 'axios', 'api'],
         project_live_link: 'https://book-nest-search-books.vercel.app/',
         project_github_link: 'https://github.com/ayezabashir/BookNest-SearchBooks'
-    }
+    },
+    {
+        id: 4,
+        project_cover: admindash,
+        project_name: 'Admin Dashboard',
+        project_desc: 'An Admin Dashboard Page made using ReactJs, Sass and Apexcharts to add charts in the page.',
+        project_languages: ['reactjs', 'scss', 'apexcharts', 'materialicon'],
+        project_live_link: 'https://react-js-admin-dashboard-zeta.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/ReactJs-AdminDashboard'
+    },
 ]
 
 const Projects = () => {
