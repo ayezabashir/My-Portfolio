@@ -99,6 +99,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1111;
   background: $primary-color;
   box-shadow: 0px 0px 4px 1px $secondary-color;
   .container {
@@ -289,13 +290,59 @@ header {
         .project-grid {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
+          gap: 4rem;
           .project-card {
             width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 3px 1px $secondary-color;
             .project-card-header {
+              padding: 1rem;
               .img {
+                overflow: hidden;
                 img {
                   width: 100%;
                 }
+              }
+            }
+            .project-card-footer {
+              padding: 2rem 1rem 0 1.5rem;
+              .project-name {
+                margin-bottom: 2rem;
+              }
+              .project-desc {
+                .desc {
+                  font-size: 14px;
+                  margin-bottom: 1.5rem;
+                }
+                .languages {
+                  margin: 1rem 0;
+                  .lang {
+                    margin: 0 0.3rem;
+                    background: $secondary-color;
+                    color: $primary-color;
+                    font-size: 12px;
+                    padding: 0.3rem 1rem;
+                    border-radius: 50px;
+                  }
+                }
+                .links {
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                  margin: 1rem 0;
+                  .website,
+                  .github {
+                    margin: 0 0.5rem;
+                  }
+                }
+              }
+            }
+            &:hover {
+              transition: all 0.5s ease-in-out;
+              box-shadow: 1px 2px 4px 1px $secondary-color;
+              img {
+                transition: all 0.5s ease-in-out;
+                transform: scale(1.12);
               }
             }
           }

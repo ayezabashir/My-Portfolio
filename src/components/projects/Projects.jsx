@@ -28,7 +28,7 @@ const allProjects = [
         id: 3,
         project_cover: crypto,
         project_name: 'CryptoCurrency Search',
-        project_desc: 'Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights. A simplified way to access essential cryptocurrency information',
+        project_desc: 'Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.',
         project_languages: ['reactjs', 'react-bootstrap', 'axios', 'api'],
         project_live_link: 'https://book-nest-search-books.vercel.app/',
         project_github_link: 'https://github.com/ayezabashir/BookNest-SearchBooks'
