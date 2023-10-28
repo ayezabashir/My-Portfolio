@@ -1,8 +1,12 @@
 import { BsLink45Deg } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
+
 import abelton from '/images/ableton-clone.webp'
 import admindash from '/images/admin-dashboard.webp'
+import blog from '/images/blog-website.webp'
+import flightbook from '/images/flightbook-landingpage.webp'
 import booknest from '/images/book-nest-search.webp'
+import weather from '/images/weather-app.webp'
 import crypto from '/images/crytpocurrency-search.webp'
 
 const allProjects = [
@@ -38,9 +42,36 @@ const allProjects = [
         project_cover: admindash,
         project_name: 'Admin Dashboard',
         project_desc: 'An Admin Dashboard Page made using ReactJs, Sass and Apexcharts to add charts in the page.',
-        project_languages: ['reactjs', 'scss', 'apexcharts', 'materialicon'],
+        project_languages: ['reactjs', 'scss', 'apexcharts'],
         project_live_link: 'https://react-js-admin-dashboard-zeta.vercel.app/',
         project_github_link: 'https://github.com/ayezabashir/ReactJs-AdminDashboard'
+    },
+    {
+        id: 5,
+        project_cover: blog,
+        project_name: 'Blog Website',
+        project_desc: 'A blog website made with sass and reactJs. Image optimization for better user experience',
+        project_languages: ['reactjs', 'scss'],
+        project_live_link: 'https://react-js-blog-webssite.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/ReactJS-BlogWebssite'
+    },
+    {
+        id: 6,
+        project_cover: weather,
+        project_name: 'Weather Forecast',
+        project_desc: 'Weather application that provides real-time weather information and forecasts using data from OpenWeather API',
+        project_languages: ['reactjs', 'css', 'api'],
+        project_live_link: 'https://react-js-weather-app-ebon.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/ReactJS-Weather-Forecasts'
+    },
+    {
+        id: 7,
+        project_cover: flightbook,
+        project_name: 'FlightBook-Landing Page',
+        project_desc: 'A responsive landing page for a flight-booking website, developed using ReactJS, incorporating SASS for sleek and stylish design.',
+        project_languages: ['reactjs', 'scss'],
+        project_live_link: 'https://landing-page-flight-booking-website.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/ReactJS-FlightBookingLandingPage'
     },
 ]
 
