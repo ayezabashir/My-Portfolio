@@ -113,7 +113,7 @@ const Projects = () => {
                                                                 <BsLink45Deg className='icon' />
                                                             </a>
                                                         </div>
-                                                        <div className="github" title='Github' >
+                                                        <div className="github" title='Github Repository Link' >
                                                             <a href={item.project_github_link} rel="noreferrer" target='_blank'>
                                                                 <AiFillGithub className='icon' />
                                                             </a>

@@ -142,6 +142,53 @@ header {
   }
 }
 
+.main-section {
+  height: 80vh;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    .main-body {
+      max-width: 60vw;
+      .main-content {
+        text-align: center;
+        .main-title {
+          margin-bottom: 4.5rem;
+          h1 {
+            font-size: 4.5rem;
+            font-weight: 900;
+          }
+        }
+        .main-subtitle {
+          margin-bottom: 2rem;
+          h3 {
+            font-weight: 400;
+          }
+        }
+        .connect {
+          a {
+            .connect {
+              border: 2px solid #525252;
+              color: #525252;
+              font-size: 1.8rem;
+              font-weight: 700;
+              padding: 10px 25px;
+              border-radius: 5px;
+              cursor: pointer;
+              &:hover {
+                transition: all 0.3s ease-in-out;
+                background: $secondary-color;
+                color: $primary-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 .menu-items {
   .menu-list-items {
     cursor: pointer;
