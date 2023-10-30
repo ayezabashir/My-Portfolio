@@ -414,6 +414,13 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
   header {
     .container {
       .header {
@@ -469,6 +476,27 @@ footer {
                   }
                 }
               }
+            }
+          }
+        }
+      }
+    }
+  }
+  .about {
+    .container {
+      .about-content {
+        .about-me {
+          .name,
+          p {
+            font-size: 14px;
+          }
+        }
+        .current-stack,
+        .future-stack {
+          p {
+            .icon {
+              margin: 0 0.6rem;
+              font-size: 34px;
             }
           }
         }

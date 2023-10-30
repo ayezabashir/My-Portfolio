@@ -108,12 +108,12 @@ const Projects = () => {
                                                         }
                                                     </div>
                                                     <div className="links">
-                                                        <div className="website">
+                                                        <div className="website" title='Live URL' >
                                                             <a href={item.project_live_link} rel="noreferrer" target='_blank'>
                                                                 <BsLink45Deg className='icon' />
                                                             </a>
                                                         </div>
-                                                        <div className="github">
+                                                        <div className="github" title='Github' >
                                                             <a href={item.project_github_link} rel="noreferrer" target='_blank'>
                                                                 <AiFillGithub className='icon' />
                                                             </a>
