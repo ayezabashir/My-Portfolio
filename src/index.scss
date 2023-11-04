@@ -3,6 +3,21 @@
 $primary-color: #f6d4b1;
 $secondary-color: #525252;
 
+:root {
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.dark {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
 *,
 ::after,
 ::before {
@@ -11,6 +26,7 @@ $secondary-color: #525252;
   -webkit-font-smoothing: antialiased;
   padding: 0;
   margin: 0;
+  transition: all 0.15s ease;
 }
 
 html {
@@ -18,13 +34,8 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-body {
-  background: $primary-color;
-  color: $secondary-color;
-}
-
 a {
-  color: $secondary-color;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -73,7 +84,7 @@ textarea {
 .icon {
   font-size: 2rem;
   cursor: pointer;
-  color: $secondary-color;
+  color: var(--secondary-color);
 }
 
 .blank {
@@ -81,7 +92,7 @@ textarea {
 }
 
 .highlight {
-  color: $primary-color;
+  color: var(--primary-color);
   position: relative;
   padding: 2px 5px;
   font-weight: 400;
@@ -92,7 +103,7 @@ textarea {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: $secondary-color;
+    background-color: var(--secondary-color);
     -webkit-transform: rotate(-2deg);
     transform: rotate(-2deg);
     z-index: -1;
@@ -104,8 +115,8 @@ header {
   width: 100%;
   top: 0;
   z-index: 1111;
-  background: $primary-color;
-  box-shadow: 0px 0px 4px 1px $secondary-color;
+  background: var(--primary-color);
+  box-shadow: 0px 0px 4px 1px var(--secondary-color);
   .container {
     .header {
       display: flex;
@@ -169,8 +180,8 @@ header {
         .connect {
           a {
             .connect {
-              border: 2px solid #525252;
-              color: #525252;
+              border: 2px solid var(--secondary-color);
+              color: var(--secondary-color);
               font-size: 1.8rem;
               font-weight: 700;
               padding: 10px 25px;
@@ -178,8 +189,8 @@ header {
               cursor: pointer;
               &:hover {
                 transition: all 0.3s ease-in-out;
-                background: $secondary-color;
-                color: $primary-color;
+                background: var(--secondary-color);
+                color: var(--primary-color);
               }
             }
           }
@@ -194,7 +205,7 @@ header {
     cursor: pointer;
     button {
       width: 50px;
-      border: 2px solid $secondary-color;
+      border: 2px solid var(--secondary-color);
       border-radius: 50px;
       .mode {
         display: flex;
@@ -220,7 +231,7 @@ header {
         display: block;
         width: 0;
         height: 2px;
-        background: $secondary-color;
+        background: var(--secondary-color);
         transition: width 0.3s;
       }
       &:hover::after {
@@ -245,7 +256,7 @@ header {
         border-radius: 10px;
         padding: 2rem;
         justify-content: space-between;
-        box-shadow: 0px 0px 4px 1px $secondary-color;
+        box-shadow: 0px 0px 4px 1px var(--secondary-color);
         .left,
         .right {
           width: 100%;
@@ -262,20 +273,20 @@ header {
         input,
         textarea {
           border-radius: 5px;
-          border: 2px solid $secondary-color;
-          color: $secondary-color;
+          border: 2px solid var(--secondary-color);
+          color: var(--secondary-color);
           background: transparent;
           padding: 11px 5px;
           font-size: 1.4rem;
           font-family: inherit;
           &:focus {
-            border: 1px solid $secondary-color;
+            border: 1px solid var(--secondary-color);
           }
         }
         .right {
           .form-submit {
-            border: 2px solid $secondary-color;
-            color: $secondary-color;
+            border: 2px solid var(--secondary-color);
+            color: var(--secondary-color);
             font-size: 1.8rem;
             font-weight: 700;
             padding: 10px 25px;
@@ -284,8 +295,8 @@ header {
             width: 100%;
             &:hover {
               transition: all 0.3s ease-in-out;
-              background: $secondary-color;
-              color: $primary-color;
+              background: var(--secondary-color);
+              color: var(--primary-color);
             }
           }
         }
@@ -345,7 +356,7 @@ header {
           .project-card {
             width: 100%;
             border-radius: 5px;
-            box-shadow: 0 0 3px 1px $secondary-color;
+            box-shadow: 0 0 3px 1px var(--secondary-color);
             .project-card-header {
               padding: 1rem;
               .img {
@@ -386,7 +397,7 @@ header {
             }
             &:hover {
               transition: all 0.5s ease-in-out;
-              box-shadow: 1px 2px 4px 1px $secondary-color;
+              box-shadow: 1px 2px 4px 1px var(--secondary-color);
               img {
                 transition: all 0.5s ease-in-out;
                 transform: scale(1.12);
@@ -400,7 +411,7 @@ header {
 }
 
 footer {
-  border-top: 2px solid $secondary-color;
+  border-top: 2px solid var(--secondary-color);
   .container {
     .footer-content {
       margin: 4rem auto;
@@ -411,15 +422,15 @@ footer {
         align-items: center;
         .footer-list-item {
           cursor: pointer;
-          border: 2px solid $secondary-color;
+          border: 2px solid var(--secondary-color);
           padding: 8px 8px 6px 8px;
           border-radius: 50%;
           margin: 2rem 1rem 0 1rem;
           &:hover {
             transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
-            background-color: $secondary-color;
+            background-color: var(--secondary-color);
             .icon {
-              color: $primary-color;
+              color: var(--primary-color);
             }
           }
         }
@@ -494,7 +505,7 @@ footer {
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background-color: rgba(0, 0, 0, 0.7);
+                background-color: var(--secondary-color);
                 z-index: 1;
                 &.active {
                   opacity: 1;
@@ -506,7 +517,7 @@ footer {
                   right: 0;
                   height: 100%;
                   width: 100%;
-                  background: $primary-color;
+                  background: var(--primary-color);
                   padding: 2rem;
                   display: flex;
                   flex-direction: column;

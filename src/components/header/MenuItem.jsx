@@ -7,6 +7,7 @@ const MenuItem = () => {
     const [mode, setMode] = useState(true);
     const changeMode = () => {
         setMode(!mode);
+        document.body.classList.toggle('dark');
     }
 
     return (
@@ -32,7 +33,7 @@ const MenuItem = () => {
                     </a>
                 </li>
                 <li className='menu-list-items'>
-                    <button onClick={changeMode}>
+                    <button className="switch" data-switch-dark aria-hidden onClick={changeMode}>
                         {
                             mode ? <MdDarkMode title='switch to darkmode' className='mode dark icon' /> : <BsFillSunFill title='switch to lightmode' className='mode-two light icon' />
                         }
