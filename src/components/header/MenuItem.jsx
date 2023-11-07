@@ -28,7 +28,7 @@ const MenuItem = () => {
                     <a href="#contact"><h3>Contact</h3></a>
                 </li>
                 <li className='menu-list-items' title='My Resume'>
-                    <a href="">
+                    <a target='_blank' rel="noreferrer" href="https://resume-rho-brown.vercel.app/">
                         <HiDocumentText className='icon' />
                     </a>
                 </li>
