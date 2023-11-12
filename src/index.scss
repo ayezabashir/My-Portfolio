@@ -462,6 +462,17 @@ footer {
       }
     }
   }
+  .projects {
+    .container {
+      .projects-content {
+        .projects-container {
+          .project-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -549,6 +560,17 @@ footer {
               margin: 0 0.6rem;
               font-size: 34px;
             }
+          }
+        }
+      }
+    }
+  }
+  .projects {
+    .container {
+      .projects-content {
+        .projects-container {
+          .project-grid {
+            grid-template-columns: repeat(1, 1fr);
           }
         }
       }
