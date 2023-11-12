@@ -443,6 +443,25 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .contact-form {
+    .container {
+      .contact-content {
+        width: 100%;
+        .form {
+          flex-direction: column;
+          .left {
+            padding-bottom: 0;
+          }
+          .right {
+            padding-top: 0;
+            .form-element {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
   .projects {
     .container {
       .projects-content {
