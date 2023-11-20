@@ -7,7 +7,7 @@ const MenuItem = () => {
     const [mode, setMode] = useState(true);
     const changeMode = () => {
         setMode(!mode);
-        document.body.classList.toggle('dark');
+        // document.body.classList.toggle('dark');
     }
 
     return (
