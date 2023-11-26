@@ -26,6 +26,22 @@ body {
   header {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    box-shadow: 0px 0px 4px 1px var(--primary-color);
+    .container {
+      .header {
+        .right {
+          .mobile {
+            .mobile-view {
+              .menu-open {
+                .full-screen-menu {
+                  background: var(--secondary-color);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
   h1 {
     transition: 0.5s all ease-in;
@@ -36,10 +52,6 @@ body {
     &::after {
       background-color: var(--primary-color);
     }
-  }
-  header {
-    background: var(--secondary-color);
-    box-shadow: 0px 0px 4px 1px var(--primary-color);
   }
   .main-section {
     .container {
@@ -660,6 +672,13 @@ footer {
             }
           }
         }
+      }
+    }
+  }
+  .main-section {
+    .container {
+      .main-body {
+        max-width: 100vw;
       }
     }
   }
