@@ -9,17 +9,17 @@ const Footer = () => {
                         <h2 id='connect'>Connect With Me</h2>
                         <ul className="footer-list">
                             <li className='footer-list-item'>
-                                <a href="https://github.com/ayezabashir">
+                                <a rel="noreferrer" target='_blank' href="https://github.com/ayezabashir">
                                     <BsGithub className='icon social' />
                                 </a>
                             </li>
                             <li className='footer-list-item'>
-                                <a href="https://www.linkedin.com/in/ayezabashir">
+                                <a rel="noreferrer" target='_blank' href="https://www.linkedin.com/in/ayezabashir">
                                     <BsLinkedin className='icon social' />
                                 </a>
                             </li>
                             <li className='footer-list-item'>
-                                <a href="https://codepen.io/ayezabashir">
+                                <a rel="noreferrer" target='_blank' href="https://codepen.io/ayezabashir">
                                     <FiCodepen className='icon social' />
                                 </a>
                             </li>
