@@ -2,6 +2,7 @@ import { BsLink45Deg } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
 
 import abelton from '/images/ableton-clone.webp'
+import backstagetalk from '/images/backstagetalk.webp'
 import admindash from '/images/admin-dashboard.webp'
 import blog from '/images/blog-website.webp'
 import flightbook from '/images/flightbook-landingpage.jpg'
@@ -21,6 +22,15 @@ const allProjects = [
     },
     {
         id: 2,
+        project_cover: backstagetalk,
+        project_name: 'BackStage Talk Magazine',
+        project_desc: 'Developed this Backstage-Talk-Magazine website clone using ReactJs and pure CSS - A frontend-practice project challenge.',
+        project_languages: ['reactjs', 'css'],
+        project_live_link: 'https://backstage-talk-magazine-clone.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/backstage-talk-magazine-clone'
+    },
+    {
+        id: 3,
         project_cover: booknest,
         project_name: 'BookNest - Search Books',
         project_desc: 'Developed using ReactJS and styled with Sass, BookNest leverages the OpenLibrary API to seamlessly fetch and present book data.',
@@ -29,7 +39,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/BookNest-SearchBooks'
     },
     {
-        id: 3,
+        id: 4,
         project_cover: crypto,
         project_name: 'CryptoCurrency Search',
         project_desc: 'Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.',
@@ -38,7 +48,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/Crytpocurrency-Search'
     },
     {
-        id: 4,
+        id: 5,
         project_cover: admindash,
         project_name: 'Admin Dashboard',
         project_desc: 'An Admin Dashboard Page made using ReactJs, Sass and Apexcharts to add charts in the page.',
@@ -47,7 +57,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJs-AdminDashboard'
     },
     {
-        id: 5,
+        id: 6,
         project_cover: blog,
         project_name: 'Blog Website',
         project_desc: 'A blog website made with sass and reactJs. Image optimization for better user experience',
@@ -56,7 +66,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJS-BlogWebssite'
     },
     {
-        id: 6,
+        id: 7,
         project_cover: weather,
         project_name: 'Weather Forecast',
         project_desc: 'Weather application that provides real-time weather information and forecasts using data from OpenWeather API',
@@ -65,7 +75,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJS-Weather-Forecasts'
     },
     {
-        id: 7,
+        id: 8,
         project_cover: flightbook,
         project_name: 'FlightBook-Landing Page',
         project_desc: 'A responsive landing page for a flight-booking website, developed using ReactJS, incorporating SASS for sleek and stylish design.',
