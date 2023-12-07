@@ -2,7 +2,6 @@ import { RiHtml5Line, RiBootstrapLine } from 'react-icons/ri'
 import { TbBrandCss3, TbBrandNextjs, TbBrandNodejs, TbBrandTypescript } from 'react-icons/tb'
 import { DiSass, DiPhotoshop, DiIllustrator } from 'react-icons/di'
 import { FiFigma } from 'react-icons/fi'
-import mui from '/mui.svg'
 import { FaWordpress } from 'react-icons/fa'
 import { BiLogoTailwindCss, BiLogoMongodb, BiLogoGit, BiLogoJavascript, BiLogoJquery, BiLogoReact } from 'react-icons/bi'
 const About = () => {
@@ -33,7 +32,6 @@ const About = () => {
                                 <BiLogoReact title='ReactJS' className='icon stack' />
                                 <BiLogoJquery title='jQuery' className='icon stack' />
                                 <BiLogoGit title='Git' className='icon stack' />
-                                <img src={mui} alt="" title='Material UI' className='icon stack' />
                                 <FiFigma title='Figma' className='icon stack' />
                                 <DiPhotoshop title='Photoshop' className='icon stack' />
                                 <DiIllustrator title='Illustratot' className='icon stack' />
