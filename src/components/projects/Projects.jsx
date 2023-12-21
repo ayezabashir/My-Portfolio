@@ -9,6 +9,7 @@ import flightbook from '/images/flightbook-landingpage.jpg'
 import booknest from '/images/book-nest-search.webp'
 import weather from '/images/weather-app.webp'
 import crypto from '/images/crytpocurrency-search.webp'
+import halachat from '/images/hala-chat.webp'
 
 const allProjects = [
     {
@@ -31,12 +32,12 @@ const allProjects = [
     },
     {
         id: 3,
-        project_cover: booknest,
-        project_name: 'BookNest - Search Books',
-        project_desc: 'Developed using ReactJS and styled with Sass, BookNest leverages the OpenLibrary API to seamlessly fetch and present book data.',
-        project_languages: ['reactjs', 'react-router', 'scss', 'api'],
-        project_live_link: 'https://book-nest-search-books.vercel.app/',
-        project_github_link: 'https://github.com/ayezabashir/BookNest-SearchBooks'
+        project_cover: halachat,
+        project_name: 'Hala-Chat',
+        project_desc: 'Hala is a voice chat platform that lets you make new friends from around the world! A client project of mine.',
+        project_languages: ['html5', 'bootstrap', 'javascript'],
+        project_live_link: 'https://hala-chat.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/HalaChat'
     },
     {
         id: 4,
@@ -49,6 +50,15 @@ const allProjects = [
     },
     {
         id: 5,
+        project_cover: booknest,
+        project_name: 'BookNest - Search Books',
+        project_desc: 'Developed using ReactJS and styled with Sass, BookNest leverages the OpenLibrary API to seamlessly fetch and present book data.',
+        project_languages: ['reactjs', 'react-router', 'scss', 'api'],
+        project_live_link: 'https://book-nest-search-books.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/BookNest-SearchBooks'
+    },
+    {
+        id: 6,
         project_cover: admindash,
         project_name: 'Admin Dashboard',
         project_desc: 'An Admin Dashboard Page made using ReactJs, Sass and Apexcharts to add charts in the page.',
@@ -57,7 +67,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJs-AdminDashboard'
     },
     {
-        id: 6,
+        id: 7,
         project_cover: blog,
         project_name: 'Blog Website',
         project_desc: 'A blog website made with sass and reactJs. Image optimization for better user experience',
@@ -66,7 +76,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJS-BlogWebssite'
     },
     {
-        id: 7,
+        id: 8,
         project_cover: weather,
         project_name: 'Weather Forecast',
         project_desc: 'Weather application that provides real-time weather information and forecasts using data from OpenWeather API',
@@ -75,7 +85,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJS-Weather-Forecasts'
     },
     {
-        id: 8,
+        id: 9,
         project_cover: flightbook,
         project_name: 'FlightBook-Landing Page',
         project_desc: 'A responsive landing page for a flight-booking website, developed using ReactJS, incorporating SASS for sleek and stylish design.',
