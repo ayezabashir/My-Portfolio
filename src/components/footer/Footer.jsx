@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsDiscord, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { FiCodepen } from 'react-icons/fi'
 const Footer = () => {
     return (
@@ -21,6 +21,11 @@ const Footer = () => {
                             <li className='footer-list-item'>
                                 <a rel="noreferrer" target='_blank' href="https://codepen.io/ayezabashir">
                                     <FiCodepen className='icon social' />
+                                </a>
+                            </li>
+                            <li className='footer-list-item'>
+                                <a rel="noreferrer" target='_blank' href="https://discordapp.com/users/1071491930590023700">
+                                    <BsDiscord className='icon social' />
                                 </a>
                             </li>
                         </ul>
