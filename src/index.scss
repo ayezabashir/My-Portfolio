@@ -16,6 +16,10 @@ body {
 .dark {
   background: var(--secondary-color);
   color: var(--primary-color);
+  ::selection {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+  }
   a {
     color: var(--primary-color);
   }
@@ -146,6 +150,11 @@ body {
       }
     }
   }
+}
+
+::selection {
+  color: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 *,
