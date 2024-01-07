@@ -9,17 +9,17 @@ const ContactForm = () => {
                             <div className="left">
                                 <div className="form-element">
                                     <label htmlFor="fullname">Full Name</label>
-                                    <input required type="text" id='fullname' name='fullname' />
+                                    <input minLength="3" maxLength="50" required type="text" id='fullname' name='fullname' />
                                 </div>
                                 <div className="form-element">
                                     <label htmlFor="email">Email</label>
-                                    <input required type="email" name="email" id="email" />
+                                    <input minLength="8" maxLength='50' required type="email" name="email" id="email" />
                                 </div>
                             </div>
                             <div className="right">
                                 <div className="form-element">
                                     <label htmlFor="msg">Your Message</label>
-                                    <textarea required name="msg" id="msg" cols="30" rows="6"></textarea>
+                                    <textarea minLength="3" maxLength="200" required name="msg" id="msg" cols="30" rows="6"></textarea>
                                 </div>
                                 <button type="submit" className="form-submit">Submit</button>
                             </div>
