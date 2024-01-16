@@ -61,9 +61,10 @@ body {
     .container {
       .main-body {
         .main-content {
-          .connect {
+          .connection {
             a {
               .connect {
+                margin: 4px;
                 border: 2px solid var(--primary-color);
                 color: var(--primary-color);
                 &:hover {
@@ -317,9 +318,10 @@ header {
             font-weight: 400;
           }
         }
-        .connect {
+        .connection {
           a {
             .connect {
+              margin: 4px;
               border: 2px solid var(--secondary-color);
               color: var(--secondary-color);
               font-size: 1.8rem;
