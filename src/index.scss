@@ -13,6 +13,10 @@ body {
   color: var(--secondary-color);
 }
 
+span {
+  display: inline-block;
+}
+
 .dark {
   background: var(--secondary-color);
   color: var(--primary-color);
