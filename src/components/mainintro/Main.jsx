@@ -12,11 +12,11 @@ const Main = () => {
                                 <h3>Aspiring Software Developer enthusiastic about creating interactive and user-friendly web experiences. Always exploring new ways to stay at the forefront of technologies.</h3>
                             </div>
                             <div className="connection">
-                                <a href="#connect">
-                                    <button className="connect">Connect With Me</button>
+                                <a href="#connect" className="connect">
+                                    Connect With Me
                                 </a>
-                                <a target="_blank" rel="noreferrer" href="https://resume-rho-brown.vercel.app/">
-                                    <button className="connect">My Resume</button>
+                                <a target="_blank" className="connect" rel="noreferrer" href="https://resume-rho-brown.vercel.app/">
+                                    My Resume
                                 </a>
                             </div>
                         </div>

@@ -66,15 +66,13 @@ span {
       .main-body {
         .main-content {
           .connection {
-            a {
-              .connect {
-                margin: 4px;
-                border: 2px solid var(--primary-color);
-                color: var(--primary-color);
-                &:hover {
-                  background: var(--primary-color);
-                  color: var(--secondary-color);
-                }
+            .connect {
+              margin: 4px;
+              border: 2px solid var(--primary-color);
+              color: var(--primary-color);
+              &:hover {
+                background: var(--primary-color);
+                color: var(--secondary-color);
               }
             }
           }
@@ -323,21 +321,19 @@ header {
           }
         }
         .connection {
-          a {
-            .connect {
-              margin: 4px;
-              border: 2px solid var(--secondary-color);
-              color: var(--secondary-color);
-              font-size: 1.8rem;
-              font-weight: 700;
-              padding: 10px 25px;
-              border-radius: 5px;
-              cursor: pointer;
-              &:hover {
-                transition: all 0.3s ease-in-out;
-                background: var(--secondary-color);
-                color: var(--primary-color);
-              }
+          .connect {
+            margin: 4px;
+            border: 2px solid var(--secondary-color);
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            font-weight: 700;
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover {
+              transition: all 0.3s ease-in-out;
+              background: var(--secondary-color);
+              color: var(--primary-color);
             }
           }
         }
