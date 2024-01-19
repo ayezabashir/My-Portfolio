@@ -160,6 +160,15 @@ span {
   background: var(--secondary-color);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--secondary-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
 *,
 ::after,
 ::before {

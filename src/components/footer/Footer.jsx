@@ -30,7 +30,7 @@ const Footer = () => {
                             </li>
                         </ul>
                         <br /><br />
-                        <small className='copyrights'>Copyright &copy; 2023, Ayeza Bashir</small>
+                        <small className='copyrights'>Designed and Built by <span className='highlight'>Ayeza Bashir</span> &copy; 2023</small>
                     </div>
                 </div>
             </footer>
