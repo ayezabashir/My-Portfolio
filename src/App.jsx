@@ -9,7 +9,6 @@ import Projects from "./components/projects/Projects"
 function App() {
   return (
     <>
-      <Cursor />
       <Header />
       <div className="blank"></div>
       <Main />
@@ -17,6 +16,7 @@ function App() {
       <Projects />
       <ContactForm />
       <Footer />
+      <Cursor />
     </>
   )
 }

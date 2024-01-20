@@ -31,16 +31,7 @@ span {
     color: var(--primary-color);
     background: transparent;
   }
-  .cursor-dot {
-    width: 5px;
-    height: 5px;
-    background: $primary-color;
-  }
-  .cursor-outline {
-    width: 30px;
-    height: 30px;
-    border: 2px solid $primary-color;
-  }
+
   header {
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -191,27 +182,26 @@ span {
   cursor: none;
 }
 
-.cursor-dot {
-  width: 5px;
-  height: 5px;
-  background: $secondary-color;
-}
-.cursor-outline {
-  width: 30px;
-  height: 30px;
-  border: 2px solid $secondary-color;
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  width: 24px;
+  height: 24px;
+  background-color: #525252;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 9999;
+  user-select: none;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: none;
 }
 
-.cursor-dot,
-.cursor-outline {
-  position: fixed;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  z-index: 111111;
-  pointer-events: none;
-}
 html {
   font-size: 62.5%;
   font-family: "Inter", sans-serif;

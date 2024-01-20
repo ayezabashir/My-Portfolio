@@ -1,27 +1,24 @@
-import { useEffect } from "react"
+// Cursor.js
+import { useState, useEffect } from 'react';
 
-const cursorDot = document.querySelector('[data-cursor-dot]')
-const cursorOutline = document.querySelector('[data-cursor-outline]')
 const Cursor = () => {
+    const [position, setPosition] = useState({ x: 0, y: 0 });
+
     useEffect(() => {
-        window.addEventListener("mousemove", function (e) {
-            const posX = e.clientX;
-            const posY = e.clientY;
-            cursorDot.style.left = `${posX}px`;
-            cursorDot.style.top = `${posY}px`;
+        const updateCursorPosition = (e) => {
+            setPosition({ x: e.clientX, y: e.clientY });
+        };
 
-            cursorOutline.animate({
-                left: `${posX}px`,
-                top: `${posY}px`,
-            }, { duration: 500, fill: "forwards" })
-        })
-    }, [])
+        window.addEventListener('mousemove', updateCursorPosition);
+
+        return () => {
+            window.removeEventListener('mousemove', updateCursorPosition);
+        };
+    }, []);
+
     return (
-        <>
-            <div className="cursor-dot" data-cursor-dot></div>
-            <div className="cursor-outline" data-cursor-outline></div>
-        </>
-    )
-}
+        <div className="custom-cursor" style={{ left: `${position.x}px`, top: `${position.y}px` }}></div>
+    );
+};
 
-export default Cursor
+export default Cursor;
