@@ -31,6 +31,16 @@ span {
     color: var(--primary-color);
     background: transparent;
   }
+  .cursor-dot {
+    width: 5px;
+    height: 5px;
+    background: $primary-color;
+  }
+  .cursor-outline {
+    width: 30px;
+    height: 30px;
+    border: 2px solid $primary-color;
+  }
   header {
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -178,8 +188,30 @@ span {
   padding: 0;
   margin: 0;
   transition: background color border 0.15s ease;
+  cursor: none;
 }
 
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background: $secondary-color;
+}
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid $secondary-color;
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 111111;
+  pointer-events: none;
+}
 html {
   font-size: 62.5%;
   font-family: "Inter", sans-serif;
@@ -234,7 +266,7 @@ textarea {
 
 .icon {
   font-size: 2rem;
-  cursor: pointer;
+  // cursor: pointer;
   color: var(--secondary-color);
   background: transparent;
 }
@@ -338,7 +370,7 @@ header {
             font-weight: 700;
             padding: 10px 25px;
             border-radius: 5px;
-            cursor: pointer;
+            // cursor: pointer;
             &:hover {
               transition: all 0.3s ease-in-out;
               background: var(--secondary-color);
@@ -353,7 +385,7 @@ header {
 
 .menu-items {
   .menu-list-items {
-    cursor: pointer;
+    // cursor: pointer;
     button {
       width: 50px;
       border: 2px solid var(--secondary-color);
@@ -442,7 +474,7 @@ header {
             font-weight: 700;
             padding: 10px 25px;
             border-radius: 5px;
-            cursor: pointer;
+            // cursor: pointer;
             width: 100%;
             &:hover {
               transition: all 0.3s ease-in-out;
@@ -572,7 +604,7 @@ footer {
         justify-content: center;
         align-items: center;
         .footer-list-item {
-          cursor: pointer;
+          // cursor: pointer;
           border: 2px solid var(--secondary-color);
           padding: 8px 8px 6px 8px;
           border-radius: 50%;
