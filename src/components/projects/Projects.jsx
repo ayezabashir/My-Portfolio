@@ -32,6 +32,15 @@ const allProjects = [
     },
     {
         id: 3,
+        project_name: 'Gpt-Zero Clone',
+        project_desc: 'Developed a clone of GPT-zero Landing page using ReactJS and TailwindCSS.',
+        project_languages: ['ReactJS', 'TailwindCSS'],
+        project_live_link: 'https://gpt-zero-mu.vercel.app/',
+        project_github_link: 'https://github.com/ayezabashir/gpt-zero',
+
+    },
+    {
+        id: 4,
         project_cover: halachat,
         project_name: 'Hala-Chat',
         project_desc: 'Hala is a voice chat platform that lets you make new friends from around the world! A client project of mine.',
@@ -40,7 +49,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/HalaChat'
     },
     {
-        id: 4,
+        id: 5,
         project_cover: crypto,
         project_name: 'CryptoCurrency Search',
         project_desc: 'Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.',
@@ -49,7 +58,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/Crytpocurrency-Search'
     },
     {
-        id: 5,
+        id: 6,
         project_cover: booknest,
         project_name: 'BookNest - Search Books',
         project_desc: 'Developed using ReactJS and styled with Sass, BookNest leverages the OpenLibrary API to seamlessly fetch and present book data.',
@@ -58,7 +67,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/BookNest-SearchBooks'
     },
     {
-        id: 6,
+        id: 7,
         project_cover: admindash,
         project_name: 'Admin Dashboard',
         project_desc: 'An Admin Dashboard Page made using ReactJs, Sass and Apexcharts to add charts in the page.',
@@ -67,7 +76,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJs-AdminDashboard'
     },
     {
-        id: 7,
+        id: 8,
         project_cover: blog,
         project_name: 'Blog Website',
         project_desc: 'A blog website made with sass and reactJs. Image optimization for better user experience',
@@ -76,7 +85,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJS-BlogWebssite'
     },
     {
-        id: 8,
+        id: 9,
         project_cover: weather,
         project_name: 'Weather Forecast',
         project_desc: 'Weather application that provides real-time weather information and forecasts using data from OpenWeather API',
@@ -85,7 +94,7 @@ const allProjects = [
         project_github_link: 'https://github.com/ayezabashir/ReactJS-Weather-Forecasts'
     },
     {
-        id: 9,
+        id: 10,
         project_cover: flightbook,
         project_name: 'FlightBook-Landing Page',
         project_desc: 'A responsive landing page for a flight-booking website, developed using ReactJS, incorporating SASS for sleek and stylish design.',

@@ -256,7 +256,6 @@ textarea {
 
 .icon {
   font-size: 2rem;
-  // cursor: pointer;
   color: var(--secondary-color);
   background: transparent;
 }
@@ -360,7 +359,6 @@ header {
             font-weight: 700;
             padding: 10px 25px;
             border-radius: 5px;
-            // cursor: pointer;
             &:hover {
               transition: all 0.3s ease-in-out;
               background: var(--secondary-color);
@@ -375,7 +373,6 @@ header {
 
 .menu-items {
   .menu-list-items {
-    // cursor: pointer;
     button {
       width: 50px;
       border: 2px solid var(--secondary-color);
@@ -464,7 +461,6 @@ header {
             font-weight: 700;
             padding: 10px 25px;
             border-radius: 5px;
-            // cursor: pointer;
             width: 100%;
             &:hover {
               transition: all 0.3s ease-in-out;
@@ -594,7 +590,6 @@ footer {
         justify-content: center;
         align-items: center;
         .footer-list-item {
-          // cursor: pointer;
           border: 2px solid var(--secondary-color);
           padding: 8px 8px 6px 8px;
           border-radius: 50%;
