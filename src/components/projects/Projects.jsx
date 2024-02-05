@@ -10,6 +10,7 @@ import booknest from '/images/book-nest-search.webp'
 import weather from '/images/weather-app.webp'
 import crypto from '/images/crytpocurrency-search.webp'
 import halachat from '/images/hala-chat.webp'
+import gptzero from '/images/gpt-zero.webp'
 
 const allProjects = [
     {
@@ -32,6 +33,7 @@ const allProjects = [
     },
     {
         id: 3,
+        project_cover: gptzero,
         project_name: 'Gpt-Zero Clone',
         project_desc: 'Developed a clone of GPT-zero Landing page using ReactJS and TailwindCSS.',
         project_languages: ['ReactJS', 'TailwindCSS'],
