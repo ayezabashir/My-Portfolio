@@ -351,6 +351,8 @@ header {
           }
         }
         .connection {
+          display: flex;
+          justify-content: center;
           .connect {
             margin: 4px;
             border: 2px solid var(--secondary-color);
@@ -716,6 +718,12 @@ footer {
     .container {
       .main-body {
         max-width: 100vw;
+        .connection {
+          width: 234px;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 auto;
+        }
       }
     }
   }
