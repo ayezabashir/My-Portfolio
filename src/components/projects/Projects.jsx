@@ -6,6 +6,7 @@ import booknest from "/images/book-nest-search.webp";
 import crypto from "/images/crytpocurrency-search.webp";
 import gptzero from "/images/gpt-zero.webp";
 import codepen from "/images/codepen.webp";
+import halachat from "/images/hala-chat.webp";
 
 const allProjects = [
   {
@@ -70,6 +71,16 @@ const allProjects = [
       "https://landing-page-flight-booking-website.vercel.app/",
     project_github_link:
       "https://github.com/ayezabashir/ReactJS-FlightBookingLandingPage",
+  },
+  {
+    id: 7,
+    project_cover: halachat,
+    project_name: "HalaChat",
+    project_desc:
+      "A responsive landing page for a HalaChat, developed using HTML, CSS and JS. A client project",
+    project_languages: ["javascript", "css"],
+    project_live_link: "https://hala-chat.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/HalaChat",
   },
 ];
 
