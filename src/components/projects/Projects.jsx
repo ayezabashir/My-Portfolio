@@ -41,7 +41,7 @@ const allProjects = [
     project_github_link: "https://github.com/ayezabashir/gpt-zero",
   },
   {
-    id: 4,
+    id: 7,
     project_cover: crypto,
     project_name: "CryptoCurrency Search",
     project_desc:
@@ -73,7 +73,7 @@ const allProjects = [
       "https://github.com/ayezabashir/ReactJS-FlightBookingLandingPage",
   },
   {
-    id: 7,
+    id: 4,
     project_cover: halachat,
     project_name: "HalaChat",
     project_desc:
