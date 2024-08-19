@@ -525,6 +525,7 @@ header {
           grid-template-columns: repeat(3, 1fr);
           gap: 4rem;
           .project-card {
+            transition: all 0.5s ease-in-out;
             width: 100%;
             border-radius: 5px;
             box-shadow: 0 0 3px 1px var(--secondary-color);
@@ -533,6 +534,7 @@ header {
               .img {
                 overflow: hidden;
                 img {
+                  transition: all 0.5s ease-in-out;
                   width: 100%;
                 }
               }
