@@ -41,14 +41,14 @@ const allProjects = [
     project_github_link: "https://github.com/ayezabashir/gpt-zero",
   },
   {
-    id: 7,
-    project_cover: crypto,
-    project_name: "CryptoCurrency Search",
+    id: 4,
+    project_cover: halachat,
+    project_name: "HalaChat",
     project_desc:
-      "Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.",
-    project_languages: ["reactjs", "react-bootstrap", "axios", "api"],
-    project_live_link: "https://crytpocurrency-search.vercel.app/",
-    project_github_link: "https://github.com/ayezabashir/Crytpocurrency-Search",
+      "A responsive landing page for a HalaChat, developed using HTML, CSS and JS. A client project",
+    project_languages: ["javascript", "css"],
+    project_live_link: "https://hala-chat.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/HalaChat",
   },
   {
     id: 5,
@@ -73,14 +73,14 @@ const allProjects = [
       "https://github.com/ayezabashir/ReactJS-FlightBookingLandingPage",
   },
   {
-    id: 4,
-    project_cover: halachat,
-    project_name: "HalaChat",
+    id: 7,
+    project_cover: crypto,
+    project_name: "CryptoCurrency Search",
     project_desc:
-      "A responsive landing page for a HalaChat, developed using HTML, CSS and JS. A client project",
-    project_languages: ["javascript", "css"],
-    project_live_link: "https://hala-chat.vercel.app/",
-    project_github_link: "https://github.com/ayezabashir/HalaChat",
+      "Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.",
+    project_languages: ["reactjs", "react-bootstrap", "axios", "api"],
+    project_live_link: "https://crytpocurrency-search.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/Crytpocurrency-Search",
   },
 ];
 
