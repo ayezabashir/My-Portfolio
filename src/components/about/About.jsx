@@ -1,6 +1,6 @@
 import { RiHtml5Line, RiBootstrapLine } from 'react-icons/ri'
 import { TbBrandCss3, TbBrandNextjs, TbBrandNodejs, TbBrandTypescript } from 'react-icons/tb'
-import { DiSass, DiPhotoshop, DiIllustrator } from 'react-icons/di'
+import { DiSass, DiPhotoshop, DiIllustrator, DiPython } from 'react-icons/di'
 import { FiFigma } from 'react-icons/fi'
 import { FaWordpress } from 'react-icons/fa'
 import { BiLogoTailwindCss, BiLogoMongodb, BiLogoGit, BiLogoJavascript, BiLogoJquery, BiLogoReact } from 'react-icons/bi'
@@ -34,6 +34,7 @@ learning to solve real-life problems.</p>
                                 <BiLogoJavascript title='Javascript' className='icon stack' />
                                 <BiLogoReact title='ReactJS' className='icon stack' />
                                 <BiLogoJquery title='jQuery' className='icon stack' />
+                                <DiPython title='Python' className='icon stack' />
                                 <BiLogoGit title='Git' className='icon stack' />
                                 <FiFigma title='Figma' className='icon stack' />
                                 <DiPhotoshop title='Photoshop' className='icon stack' />
