@@ -12,7 +12,7 @@ const Main = () => {
                 </h1>
                             </div>
                             <div className="main-subtitle">
-                                <h3>Aspiring Software Developer enthusiastic about creating interactive and user-friendly web experiences. Always exploring new ways to stay at the forefront of technologies.</h3>
+                                <h3>Aspiring Software Engineer (with a Masters Degree 😄) with a desire to create, learn and earn. I am constantly looking at coming technologies to develop smart solutions</h3>
                             </div>
                             <div className="connection">
                                 <a href="#connect" className="connect">
