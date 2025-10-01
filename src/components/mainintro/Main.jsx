@@ -6,13 +6,12 @@ const Main = () => {
                     <div className="main-body">
                         <div className="main-content">
                             <div className="main-title">
-                                <h1>
-                  Asslamo Alaikum! <span className="emoji">✌🏻</span> I&apos;m{" "}
-                  <span className="highlight">Ayeza Bashir</span>{" "}
-                </h1>
+                                 <h1>
+                                    Building the <span className="highlight">Future</span>, One Line of Code at a Time
+                                </h1>
                             </div>
                             <div className="main-subtitle">
-                                <h3>Aspiring Software Engineer (with a Masters Degree 😄) with a desire to create, learn and earn. I am constantly looking at coming technologies to develop smart solutions</h3>
+                                <h3>Software Engineer with a desire to create, learn and earn (plus a Master's Graduate 😄). I am constantly looking at latest technologies to develop smart solutions.</h3>
                             </div>
                             <div className="connection">
                                 <a href="#connect" className="connect">
@@ -20,7 +19,7 @@ const Main = () => {
                                 </a>
                                 <a target="_blank" className="connect" rel="noreferrer" href="https://resume-rho-brown.vercel.app/">
                                     My Resume
-                                </a>
+                                </a>d
                             </div>
                         </div>
                     </div>
