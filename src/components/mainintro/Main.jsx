@@ -11,15 +11,15 @@ const Main = () => {
                                 </h1>
                             </div>
                             <div className="main-subtitle">
-                                <h3>Software Engineer with a desire to create, learn and earn (plus a Master's Graduate 😄). I am constantly looking at latest technologies to develop smart solutions.</h3>
+                                <h3>I'm <span className="highlight">Ayeza Bashir</span> - Software Engineer with a desire to create, learn and earn (plus a Master's Graduate 😄). I am constantly looking at latest technologies to develop smart solutions.</h3>
                             </div>
                             <div className="connection">
                                 <a href="#connect" className="connect">
-                                    Connect With Me
+                                    Let's Build Together
                                 </a>
                                 <a target="_blank" className="connect" rel="noreferrer" href="https://resume-rho-brown.vercel.app/">
-                                    My Resume
-                                </a>d
+                                    View My Resume
+                                </a>
                             </div>
                         </div>
                     </div>
