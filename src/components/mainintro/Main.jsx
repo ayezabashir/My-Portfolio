@@ -6,7 +6,7 @@ const Main = () => {
                     <div className="main-body">
                         <div className="main-content">
                             <div className="main-title">
-                                 <h1>
+                                <h1>
                                     Building the <span className="highlight">Future</span>, One Line of Code at a Time
                                 </h1>
                             </div>
@@ -17,8 +17,8 @@ const Main = () => {
                                 <a href="#connect" className="connect">
                                     Let's Build Together
                                 </a>
-                                <a target="_blank" className="connect" rel="noreferrer" href="https://resume-rho-brown.vercel.app/">
-                                    View My Resume
+                                <a href="/images/Ayeza_Bashir_Resume.pdf" className="connect" download >
+                                    Download Resume
                                 </a>
                             </div>
                         </div>
