@@ -5,7 +5,7 @@ import flightbook from "/images/flightbook-landingpage.jpg";
 import booknest from "/images/book-nest-search.webp";
 import crypto from "/images/crytpocurrency-search.webp";
 import gptzero from "/images/gpt-zero.webp";
-import codepen from "/images/codepen.webp";
+import weatherapp from "/images/weather_app.webp";
 import halachat from "/images/hala-chat.webp";
 
 const allProjects = [
@@ -22,13 +22,13 @@ const allProjects = [
   },
   {
     id: 2,
-    project_cover: codepen,
-    project_name: "Codepen Clone",
+    project_cover: weatherapp,
+    project_name: "Advance Weather App",
     project_desc:
-      "Developed a CodePen-Clone with ReactJS and Firebase. It allows users to write HTML, CSS, and JavaScript and preview output.",
-    project_languages: ["reactjs", "firebase"],
-    project_live_link: "https://codepen-clone-pied-kappa.vercel.app/",
-    project_github_link: "https://github.com/ayezabashir/codepen-clone",
+      "Developed a CodePen-Clone with ReactJS and TailwindCss. View daily and hourly temperature changes throughout the day",
+    project_languages: ["reactjs", "tailwindcss"],
+    project_live_link: "https://advance-weather-app-theta.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/Advance-Weather-App",
   },
   {
     id: 3,
