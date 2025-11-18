@@ -95,33 +95,6 @@ span {
       }
     }
   }
-  .contact-form {
-    .container {
-      .contact-content {
-        .form {
-          box-shadow: 0px 0px 4px 1px var(--primary-color);
-          input,
-          textarea {
-            border: 2px solid var(--primary-color);
-            color: var(--primary-color);
-            &:focus {
-              border: 1px solid var(--primary-color);
-            }
-          }
-          .right {
-            .form-submit {
-              border: 2px solid var(--primary-color);
-              color: var(--primary-color);
-              &:hover {
-                background: var(--primary-color);
-                color: var(--secondary-color);
-              }
-            }
-          }
-        }
-      }
-    }
-  }
   .projects {
     .container {
       .projects-content {
@@ -417,69 +390,6 @@ header {
   }
 }
 
-.contact-form {
-  margin: 6rem 0;
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .contact-content {
-      width: 80vw;
-      text-align: center;
-      .form {
-        margin-top: 2rem;
-        display: flex;
-        border-radius: 10px;
-        padding: 2rem;
-        justify-content: space-between;
-        box-shadow: 0px 0px 4px 1px var(--secondary-color);
-        .left,
-        .right {
-          width: 100%;
-          padding: 10px;
-        }
-        .form-element {
-          margin: 2rem 0;
-        }
-        label {
-          font-size: 1.6rem;
-          text-align: left;
-          margin: 5px 0;
-        }
-        input,
-        textarea {
-          border-radius: 5px;
-          border: 2px solid var(--secondary-color);
-          color: var(--secondary-color);
-          background: transparent;
-          padding: 11px 5px;
-          font-size: 1.4rem;
-          font-family: inherit;
-          &:focus {
-            border: 1px solid var(--secondary-color);
-          }
-        }
-        .right {
-          .form-submit {
-            border: 2px solid var(--secondary-color);
-            color: var(--secondary-color);
-            font-size: 1.8rem;
-            font-weight: 700;
-            padding: 10px 25px;
-            border-radius: 5px;
-            width: 100%;
-            &:hover {
-              transition: all 0.3s ease-in-out;
-              background: var(--secondary-color);
-              color: var(--primary-color);
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 .about {
   margin: 6rem 0;
   .container {
@@ -641,25 +551,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .contact-form {
-    .container {
-      .contact-content {
-        width: 100%;
-        .form {
-          flex-direction: column;
-          .left {
-            padding-bottom: 0;
-          }
-          .right {
-            padding-top: 0;
-            .form-element {
-              margin-top: 0;
-            }
-          }
-        }
-      }
-    }
-  }
   .projects {
     .container {
       .projects-content {
