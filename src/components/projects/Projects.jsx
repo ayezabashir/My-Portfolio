@@ -6,7 +6,7 @@ import booknest from "/images/book-nest-search.webp";
 import crypto from "/images/crytpocurrency-search.webp";
 import gptzero from "/images/gpt-zero.webp";
 import weatherapp from "/images/weather_app.webp";
-import halachat from "/images/hala-chat.webp";
+import countries from "/images/rest_api_countries.webp";
 
 const allProjects = [
   {
@@ -15,20 +15,20 @@ const allProjects = [
     project_name: "BackStage Talk Magazine",
     project_desc:
       "Developed this Backstage-Talk-Magazine website clone using ReactJs and pure CSS - A frontend-practice project challenge.",
-    project_languages: ["reactjs", "css"],
+    project_languages: ["reactJS", "css"],
     project_live_link: "https://backstage-talk-magazine-clone.vercel.app/",
     project_github_link:
       "https://github.com/ayezabashir/backstage-talk-magazine-clone",
   },
   {
     id: 2,
-    project_cover: weatherapp,
-    project_name: "Advance Weather App",
+    project_cover: countries,
+    project_name: "Rest-Countries API",
     project_desc:
-      "Developed a CodePen-Clone with ReactJS and TailwindCss. View daily and hourly temperature changes throughout the day",
-    project_languages: ["reactjs", "tailwindcss"],
-    project_live_link: "https://advance-weather-app-theta.vercel.app/",
-    project_github_link: "https://github.com/ayezabashir/Advance-Weather-App",
+      "View, search and filter countries and their details from the API. Switch between light and dark mode.",
+    project_languages: ["reactJS", "react-router", "tailwindCSS", "api"],
+    project_live_link: "https://rest-api-countries-ashen.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/rest_api_countries",
   },
   {
     id: 3,
@@ -36,27 +36,27 @@ const allProjects = [
     project_name: "Gpt-Zero Clone",
     project_desc:
       "Developed a clone of GPT-zero Landing page using ReactJS and TailwindCSS.",
-    project_languages: ["ReactJS", "TailwindCSS"],
+    project_languages: ["reactJS", "tailwindCSS"],
     project_live_link: "https://gpt-zero-mu.vercel.app/",
     project_github_link: "https://github.com/ayezabashir/gpt-zero",
   },
   {
     id: 4,
-    project_cover: halachat,
-    project_name: "HalaChat",
+    project_cover: weatherapp,
+    project_name: "Advance Weather App",
     project_desc:
-      "A responsive landing page for a HalaChat, developed using HTML, CSS and JS. A client project",
-    project_languages: ["javascript", "css"],
-    project_live_link: "https://hala-chat.vercel.app/",
-    project_github_link: "https://github.com/ayezabashir/HalaChat",
+      "Developed a CodePen-Clone with ReactJS and TailwindCss. View daily and hourly temperature changes throughout the day",
+    project_languages: ["reactJS", "tailwindcss"],
+    project_live_link: "https://advance-weather-app-theta.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/Advance-Weather-App",
   },
   {
     id: 5,
     project_cover: booknest,
     project_name: "BookNest - Search Books",
     project_desc:
-      "Developed using ReactJS and styled with Sass, BookNest leverages the OpenLibrary API to seamlessly fetch and present book data.",
-    project_languages: ["reactjs", "react-router", "scss", "api"],
+      "BookNest leverages the OpenLibrary API to seamlessly fetch and present book data. Lets you view its details.",
+    project_languages: ["reactJS", "react-router", "scss", "api"],
     project_live_link: "https://book-nest-search-books.vercel.app/",
     project_github_link: "https://github.com/ayezabashir/BookNest-SearchBooks",
   },
@@ -65,7 +65,7 @@ const allProjects = [
     project_cover: flightbook,
     project_name: "FlightBook-Landing Page",
     project_desc:
-      "A responsive landing page for a flight-booking website, developed using ReactJS, incorporating SASS for sleek and stylish design.",
+      "A responsive landing page for a flight-booking website, developed using ReactJS, incorporating SASS.",
     project_languages: ["reactjs", "scss"],
     project_live_link:
       "https://landing-page-flight-booking-website.vercel.app/",
@@ -78,7 +78,7 @@ const allProjects = [
     project_name: "CryptoCurrency Search",
     project_desc:
       "Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.",
-    project_languages: ["reactjs", "react-bootstrap", "axios", "api"],
+    project_languages: ["reactJS", "react-bootstrap", "api"],
     project_live_link: "https://crytpocurrency-search.vercel.app/",
     project_github_link: "https://github.com/ayezabashir/Crytpocurrency-Search",
   },
