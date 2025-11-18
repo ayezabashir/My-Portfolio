@@ -1,5 +1,6 @@
 import { BsDiscord, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { FiCodepen } from 'react-icons/fi'
+import { SiFrontendmentor } from "react-icons/si";
 const Footer = () => {
     return (
         <>
@@ -28,9 +29,14 @@ const Footer = () => {
                                     <BsDiscord className='icon social' />
                                 </a>
                             </li>
+                            <li className='footer-list-item'>
+                                <a rel="noreferrer" target='_blank' href="https://www.frontendmentor.io/profile/ayezabashir">
+                                    <SiFrontendmentor className='icon social' />
+                                </a>
+                            </li>
                         </ul>
                         <br /><br />
-                        <small className='copyrights'>Designed and Built by <span className='highlight'>Ayeza Bashir</span> &copy; 2023</small>
+                        <small className='copyrights'>Designed and Built by <span className='highlight'>Ayeza Bashir</span></small>
                     </div>
                 </div>
             </footer>

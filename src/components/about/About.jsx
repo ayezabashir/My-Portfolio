@@ -2,8 +2,7 @@ import { RiHtml5Line, RiBootstrapLine } from 'react-icons/ri'
 import { TbBrandCss3, TbBrandNextjs, TbBrandNodejs, TbBrandTypescript } from 'react-icons/tb'
 import { DiSass, DiPhotoshop, DiIllustrator, DiPython } from 'react-icons/di'
 import { FiFigma } from 'react-icons/fi'
-import { FaWordpress } from 'react-icons/fa'
-import { BiLogoTailwindCss, BiLogoMongodb, BiLogoGit, BiLogoJavascript, BiLogoJquery, BiLogoReact } from 'react-icons/bi'
+import { BiLogoTailwindCss, BiLogoGit, BiLogoJavascript, BiLogoReact } from 'react-icons/bi'
 const About = () => {
     return (
         <>
