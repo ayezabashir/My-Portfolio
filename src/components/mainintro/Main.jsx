@@ -11,11 +11,11 @@ const Main = () => {
                                 </h1>
                             </div>
                             <div className="main-subtitle">
-                                <h3>I'm <span className="highlight">Ayeza Bashir</span> - Software Engineer with a desire to create, learn and earn (plus a Master's Graduate 😄). I am constantly looking at latest technologies to develop smart solutions.</h3>
+                                <h3>I&apos;m <span className="highlight">Ayeza Bashir</span> - Software Engineer with a desire to create, learn and earn (plus a Master&apos;s Graduate 😄). I am constantly looking at latest technologies to develop smart solutions.</h3>
                             </div>
                             <div className="connection">
                                 <a href="#connect" className="connect">
-                                    Let's Build Together
+                                    Send me a Message
                                 </a>
                                 <a href="/images/Ayeza_Bashir_Resume.pdf" className="connect" download >
                                     Download Resume

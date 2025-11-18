@@ -65,8 +65,10 @@ span {
   .main-section {
     .container {
       .main-body {
+        max-width: 750px;
         .main-content {
           .connection {
+            margin-top: 4rem;
             .connect {
               margin: 4px;
               border: 2px solid var(--primary-color);
@@ -335,7 +337,7 @@ header {
   align-items: center;
   .container {
     .main-body {
-      max-width: 60vw;
+      max-width: 750px;
       .main-content {
         text-align: center;
         .main-title {
@@ -352,6 +354,7 @@ header {
           }
         }
         .connection {
+          margin-top: 4rem;
           display: flex;
           justify-content: center;
           .connect {
@@ -490,7 +493,7 @@ header {
         p {
           font-size: 16px;
           letter-spacing: 1px;
-          line-height: 1.5;
+          line-height: 1.7;
         }
       }
       .current-stack,
