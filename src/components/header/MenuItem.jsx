@@ -24,9 +24,6 @@ const MenuItem = () => {
                         <h3>Projects</h3>
                     </a>
                 </li>
-                <li className='menu-list-items'>
-                    <a href="#contact"><h3>Contact</h3></a>
-                </li>
                 <li className='menu-list-items' title='My Resume'>
                     <a href="/images/Ayeza_Bashir_Resume.pdf" download >
                         <HiDocumentText className='icon' />

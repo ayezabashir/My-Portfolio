@@ -70,6 +70,7 @@ span {
           .connection {
             margin-top: 4rem;
             .connect {
+              width: 200px;
               margin: 4px;
               border: 2px solid var(--primary-color);
               color: var(--primary-color);
@@ -331,6 +332,7 @@ header {
           display: flex;
           justify-content: center;
           .connect {
+            width: 220px;
             margin: 4px;
             border: 2px solid var(--secondary-color);
             color: var(--secondary-color);

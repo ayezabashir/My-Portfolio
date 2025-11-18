@@ -14,8 +14,8 @@ const Main = () => {
                                 <h3>I&apos;m <span className="highlight">Ayeza Bashir</span> - Software Engineer with a desire to create, learn and earn (plus a Master&apos;s Graduate 😄). I am constantly looking at latest technologies to develop smart solutions.</h3>
                             </div>
                             <div className="connection">
-                                <a href="#connect" className="connect">
-                                    Send me a Message
+                                <a href="#project" className="connect">
+                                    View Projects
                                 </a>
                                 <a href="/images/Ayeza_Bashir_Resume.pdf" className="connect" download >
                                     Download Resume
