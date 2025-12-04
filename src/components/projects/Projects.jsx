@@ -6,7 +6,8 @@ import booknest from "/images/book-nest-search.webp";
 import gptzero from "/images/gpt-zero.webp";
 import weatherapp from "/images/weather_app.webp";
 import countries from "/images/rest_api_countries.webp";
-import shoppingcart from "/images/shopping_cart.webp"
+import shoppingcart from "/images/shopping_cart.webp";
+import fotostoriz from "/images/fotostoriz.webp";
 
 const allProjects = [
   {
@@ -78,10 +79,21 @@ const allProjects = [
     project_name: "Shopping Cart",
     project_desc:
       "A modern, responsive shopping cart web app built with React, Redux Toolkit, React Router, and Tailwind CSS.",
-    project_languages: ["reactJS", "redux","react-router", "tailwindCSS"],
+    project_languages: ["redux","react-router", "tailwindCSS"],
     project_live_link: "https://shopping-cart-xi-three-20.vercel.app/",
     project_github_link: "https://github.com/ayezabashir/Shopping-Cart",
   },
+  {
+    id: 8,
+    project_cover: fotostoriz,
+    project_name: "FotoStoriz",
+    project_desc:
+      "A responsive landing site and storytelling UI built with ReactJS, React Router and TailwindCSS",
+    project_languages: ["reactJS", "react-router", "tailwindCSS"],
+    project_live_link: "https://foto-storiz.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/FotoStoriz",
+  },
+
 ];
 
 const Projects = () => {
