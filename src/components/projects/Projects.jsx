@@ -3,10 +3,10 @@ import { AiFillGithub } from "react-icons/ai";
 import backstagetalk from "/images/backstagetalk.webp";
 import flightbook from "/images/flightbook-landingpage.jpg";
 import booknest from "/images/book-nest-search.webp";
-import crypto from "/images/crytpocurrency-search.webp";
 import gptzero from "/images/gpt-zero.webp";
 import weatherapp from "/images/weather_app.webp";
 import countries from "/images/rest_api_countries.webp";
+import shoppingcart from "/images/shopping_cart.webp"
 
 const allProjects = [
   {
@@ -74,13 +74,13 @@ const allProjects = [
   },
   {
     id: 7,
-    project_cover: crypto,
-    project_name: "CryptoCurrency Search",
+    project_cover: shoppingcart,
+    project_name: "Shopping Cart",
     project_desc:
-      "Utilizing Axios, real-time CoinGecko data is fetched for comprehensive currency insights.",
-    project_languages: ["reactJS", "react-bootstrap", "api"],
-    project_live_link: "https://crytpocurrency-search.vercel.app/",
-    project_github_link: "https://github.com/ayezabashir/Crytpocurrency-Search",
+      "A modern, responsive shopping cart web app built with React, Redux Toolkit, React Router, and Tailwind CSS.",
+    project_languages: ["reactJS", "redux","react-router", "tailwindCSS"],
+    project_live_link: "https://shopping-cart-xi-three-20.vercel.app/",
+    project_github_link: "https://github.com/ayezabashir/Shopping-Cart",
   },
 ];
 
