@@ -47,7 +47,7 @@ const allProjects = [
     project_name: "Advance Weather App",
     project_desc:
       "Developed a CodePen-Clone with ReactJS and TailwindCss. View daily and hourly temperature changes throughout the day",
-    project_languages: ["reactJS", "tailwindcss"],
+    project_languages: ["reactJS", "tailwindcss", "api"],
     project_live_link: "https://advance-weather-app-theta.vercel.app/",
     project_github_link: "https://github.com/ayezabashir/Advance-Weather-App",
   },
@@ -79,7 +79,7 @@ const allProjects = [
     project_name: "Shopping Cart",
     project_desc:
       "A modern, responsive shopping cart web app built with React, Redux Toolkit, React Router, and Tailwind CSS.",
-    project_languages: ["redux","react-router", "tailwindCSS"],
+    project_languages: ["redux", "react-router", "tailwindCSS"],
     project_live_link: "https://shopping-cart-xi-three-20.vercel.app/",
     project_github_link: "https://github.com/ayezabashir/Shopping-Cart",
   },
@@ -93,7 +93,6 @@ const allProjects = [
     project_live_link: "https://foto-storiz.vercel.app/",
     project_github_link: "https://github.com/ayezabashir/FotoStoriz",
   },
-
 ];
 
 const Projects = () => {
